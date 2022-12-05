@@ -1,23 +1,21 @@
 /*font-family: 'Roboto', sans-serif; */
-
-body {
-    font-family: 'Roboto Slab', serif;
+* {
+    box-sizing: border-box;
 }
 
-/* TODO Ismayil css start*/
+body {
+    font-family: 'Roboto', serif;
+}
 
 
+/**HEYDAR START/
 
+/**HEYDAR END/
 
+/* TODO ISMAYIL START/
 
+/* TODO ISMAYIL END/
 
+/*? FIDAN START/
 
-
-
-
-
-
-
-
-
-/* TODO Ismayil css end*/
+/*? FIDAN END/
