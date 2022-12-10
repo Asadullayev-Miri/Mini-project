@@ -1,10 +1,12 @@
 /*font-family: 'Roboto', sans-serif; */
+    
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', serif;
+
 }
 
 
@@ -16,6 +18,634 @@ body {
 
 /* TODO ISMAYIL END/
 
-/*? FIDAN START/
+/*? FIDAN START*/
+@media (min-width: 1280px){
 
-/*? FIDAN END/
+#program{
+    margin-left: 84px;
+    width: 100%;
+}
+#program h2{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55.76px;
+    margin-bottom: 2em;
+    margin-left: 0.82em;
+}
+.first-row, .second-row{
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.third-row{
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#box7{
+    margin-right: 2em;
+    margin-left: 0em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 26.9%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 2em;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+#R5, #R7, #R9, #R13, #R14, #R15, #R19, #R20 {
+    margin-left: 0em; ;
+}
+
+#program h1{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    margin-left: 0.8em;
+    margin-top: 0.3em;
+
+}
+#program p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+    margin-left: 0.7em;
+    width: 60%;
+    line-height: 32.5px;
+    font-size:25px;
+}
+.section-background{
+    background-color: #EFEFEF;
+    padding-bottom: 7em;
+}
+.review-container{
+    padding-bottom:113px;
+}
+#review .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 52%;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-left: 14em;
+    
+}
+
+#review h1{
+    margin-top: 2em;
+    margin-left: 4em;
+    padding-top: 2em;
+    font-family: "Roboto Slab";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    padding-bottom:0.6em;
+}
+#EP {
+    /* position: absolute; */
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 23%;
+}
+
+#review p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 90%;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+ 
+#review h2{
+    margin-top: -4em;
+    margin-left: 8.2em;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30.42px;
+}
+  
+#review #fb{
+    margin-top: 0em;
+    margin-left: 15.5em;
+    padding-bottom: 4em;
+    width: 4%;
+} 
+#price{
+    background-color:#9DC9C8;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#course-begins{
+    
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55.76px;
+    margin-top: 1.8em;
+    margin-left: 4em;
+} 
+#course-price{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+    margin-top: 2.5em;
+    margin-left: 8.9em;
+
+}
+
+#price p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18.25px;
+    margin-top: 1em;
+}
+#cost{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 81.11px;
+    margin-top: -0.45em;
+    margin-left: 2.7em;
+
+}
+.offer{
+    display:flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+    margin-left: -8em;
+    margin-top: 0em;
+    margin-bottom: -2em;
+
+}
+.offer-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18.25px;
+    display: flex;
+
+
+}
+#course-description{
+    width: 20%;
+    margin-left: 12.3em;
+}
+#course-registration{
+    width: 20%;
+    margin-left: 3.5em;
+}
+#come-now{
+    margin-left: 5.4em;
+    margin-top:0.8em;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+}
+#level{
+    margin-left: 16.8em;
+    margin-top: 0.8em;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25.35px;
+}
+/* .wrapper{
+    width: 100%;
+}  */
+} 
+
+@media screen and (max-width: 1279px) and (min-width: 992px){
+#program{
+    margin-left: 84px;
+    width: 100%;
+}
+#program h2{
+font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-bottom: 2em;
+    margin-left: 0.82em;
+}
+.first-row, .second-row{
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.third-row{
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#box7{
+    margin-right: 2em;
+    margin-left: 0em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 26.9%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 2em;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+#R5, #R7, #R9, #R13, #R14, #R15, #R19, #R20 {
+    margin-left: 0em; ;
+}
+
+#program h1{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22.1px;
+    margin-left: 0.8em;
+    margin-top: 0.3em;
+
+}
+#program p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+    margin-left: 0.7em;
+    width: 60%;
+    line-height: 18.2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section-background{
+    background-color: #EFEFEF;
+    padding-bottom: 4em;
+}
+#review .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 43%;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-left: 14em;
+}
+.review-container{
+    padding-bottom:64.29px;
+    
+}
+
+#review h1{
+    margin-top: 2em;
+    margin-left: 7em;
+    padding-top: 2em;
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32.44px;
+    padding-bottom:0.6em;
+}
+#EP {
+    /* position: absolute; */
+    margin-top: 0em;
+    margin-left: 1em;
+    width: 24%;
+}
+
+#review p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 88%;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+
+#review h2{
+    margin-top: -4em;
+    margin-left: 8.5em;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17.24px;
+}
+
+#review #fb{
+    margin-top: 0em;
+    margin-left: 9.2em;
+    padding-bottom: 2.5em;
+    width: 3%;
+} 
+#price{
+    background-color:#9DC9C8;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#course-begins{
+    
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-top: 0.8em;
+    margin-left: 7em;
+} 
+#course-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.19px;
+    margin-top: 2.5em;
+    margin-left: 16em;
+
+}
+
+#price p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    margin-top: 0em;
+}
+#cost{
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46.64px;
+    margin-top: -0.45em;
+    margin-left: 4.9em;
+
+}
+.offer{
+    display:flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.19px;
+    margin-left: -1em;
+    margin-top: 0em;
+    margin-bottom: -1em;
+
+}
+.offer-text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    display: flex;
+
+
+}
+#course-description{
+    width: 16%;
+    margin-left: 22.3em;
+}
+#course-registration{
+    width: 20%;
+    margin-left: 3.5em;
+}
+#come-now{
+    margin-left: 5.4em;
+    margin-top:0.8em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.19px;
+}
+#level{
+    margin-left: 16.8em;
+    margin-top: 1.1em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.19px;
+}
+}   
+@media screen and (max-width: 991px) and (min-width: 320px){
+#program{
+    margin-left: 84px;
+    width: 100%;
+}
+#program h2{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+    margin-bottom: 2em;
+    margin-left: -1em;
+}
+.first-row, .second-row{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.third-row{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#box7{
+    margin-right: 2em;
+    margin-left: 0em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 26.9%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 2em;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+
+#R5, #R7, #R9, #R13, #R14, #R15, #R19, #R20 {
+    margin-left: 0em; ;
+}
+
+#program h1{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.2px;
+    margin-left: 0.8em;
+    margin-top: 0.3em;
+
+}
+#program p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+    margin-left: 0.7em;
+    width: 60%;
+    line-height: 15.6px;
+    font-size: 12px;
+    font-weight: 400;
+}
+#review{
+    background-color: #EFEFEF;
+    padding-bottom: 4em;
+    width: 376px;
+}
+.review-container{
+    width: 308px;
+    margin-left: 36px;
+    
+}
+#review .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-left: 0;
+}
+
+#review h1{
+    margin-top: 2em;
+    margin-left: 0em;
+    padding-top: 2em;
+    font-family: "Roboto Slab";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.36px;
+    padding-bottom:0.6em;
+    width: 80%;
+    
+}
+#EP {
+    margin-top: 0em;
+    margin-left: 1em;
+    width: 24%;
+}
+
+#review p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    width: 88%;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+
+#review h2{
+    margin-top: -4em;
+    margin-left: 6.5em;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14.19px;
+}
+
+#review #fb{
+    margin-top: 0em;
+    margin-left: 6.2em;
+    padding-bottom: 2.5em;
+    width: 3%;
+} 
+#price{
+    background-color:#9DC9C8;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 376px;
+}
+#course-begins{
+    
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+    margin-top: 0.8em;
+    margin-left: 1em;
+    width:58%;
+} 
+#course-price{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+    margin-top: 2.5em;
+    margin-left: 3em;
+
+}
+
+#price p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    margin-top: 0em;
+}
+#cost{
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 37.51px;
+    margin-top: -0.45em;
+    margin-left: 0.9em;
+
+}
+.offer{
+    display:flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.19px;
+    margin-left: -1em;
+    margin-top: 0em;
+    margin-bottom: -1em;
+
+}
+.offer-text{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    display: flex;
+
+
+}
+#course-description{
+    width: 36%;
+    margin-left: 3.3em;
+}
+#course-registration{
+    width: 38%;
+    margin-left: 4.5em;
+}
+#come-now{
+    margin-left: 6em;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+}
+#level{
+    margin-left: 3.8em;
+    margin-top: 1.1em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+}
+.wrapper{
+    width: 100%;
+}
+
+
+}
+/*? FIDAN END*/
