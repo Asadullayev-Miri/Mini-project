@@ -7,14 +7,316 @@ body {
     font-family: 'Roboto', serif;
 }
 
-
 /**HEYDAR START/
 
 /**HEYDAR END/
 
-/* TODO ISMAYIL START/
+/* TODO ISMAYIL START*/
 
-/* TODO ISMAYIL END/
+/*header section*/
+
+header>img {
+    width: 7.78%;
+    height: auto;
+    margin: 1.46% 0px 0px 8.4%;
+}
+
+/*format section*/
+
+#format {
+    margin: 11.25% 0 0 8.47%;
+}
+
+#format>h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.82vw;
+    margin-top: 11.25vw;
+    margin-bottom: 0;
+}
+
+.format-boxes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.format-boxes>div>h4 {
+    color: #1E4681;
+    font-weight: 700;
+    font-size: 1.74vw;
+    margin: 0;
+}
+
+.format-webinar-p {
+    width: 15.49vw;
+    height: 2.71vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+
+.format-access-p {
+    width: 18.82vw;
+    height: 7.57vw;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+
+.format-talk-p {
+    width: 17.01vw;
+    height: 2.71vw;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+
+.format-webinar-box {
+    margin: 8.19vw 8.47vw 15.56vw 0;
+}
+
+.format-access-box {
+    margin: 8.19vw 7.85vw 12.43vw 0;
+}
+
+.format-talk-box {
+    margin: 8.19vw 23.89vw 17.156vw 0;
+}
+
+/*add-info section*/
+
+#add-info {
+    margin: 0 0 17.22vw 8.4vw;
+}
+
+#add-info>h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.82vw;
+    margin: 0;
+}
+
+#add-info>ul {
+    width: 46.66vw;
+    height: 25.97vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+    padding: 0;
+    margin: 1.46vw 44.44vw 17.22vw 0;
+    line-height: 150%;
+    list-style-type: none;
+}
+
+#add-info>ul>li::before {
+    content: "•";
+    font-size: 1.8vw;
+    font-weight: bold;
+    padding-right: 0.69vw;
+}
+
+/*footer section*/
+
+footer {
+    background-color: #000000;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons,
+.sync,
+.footer-contacts {
+    filter: invert();
+}
+
+.footer-logo {
+    margin: 3.47% 0 0 8.47%;
+    flex-basis: 50%;
+
+}
+
+.icons {
+    margin-top: 2.08vw;
+}
+
+.footer-logo>img {
+    width: 7.99vw;
+    height: auto;
+}
+
+.icons>i:before {
+    display: inline-block;
+    font-size: 2.29vw;
+    margin-right: 1.74vw;
+}
+
+.sync {
+    margin: 10.14vw 0vw 1.6vw 0;
+    width: 15.97vw;
+    height: 2.78vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+
+.footer-contacts {
+    margin-top: 4.1%;
+    flex-basis: 50%;
+
+}
+
+.footer-contacts-phone {
+    margin: 0 12.85vw 0.21vw 35.56%;
+    width: 19.38vw;
+    height: 2.78vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.74vw;
+}
+
+.footer-contacts-phone>i {
+    margin-right: 1.53vw;
+}
+
+.footer-contacts-email {
+    margin: 0.42% 20.28% 34.44% 35.56%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.74vw;
+    width: 44.17%;
+    height: 5.56%;
+}
+
+.footer-contacts-email>i {
+    margin-right: 1.53vw;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 320px) {
+
+    header>img {
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    #format>h1 {
+        width: 310.8px;
+        height: 43.34px;
+        font-size: 26px;
+    }
+
+    .format-boxes {
+        flex-direction: column;
+    }
+
+    .format-boxes>div>h4 {
+        width: 95.9px;
+        height: 18.17px;
+        font-size: 12px;
+        margin-bottom: 0.83px;
+    }
+
+    .format-boxes>div>p {
+        margin-top: 0;
+    }
+
+    .format-webinar-box,
+    .format-access-box,
+    .format-talk-box,
+    .format-webinar-p,
+    .format-acces-p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .format-webinar-p {
+        width: 180px;
+        height: 48px;
+        font-size: 10px;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    .format-access-p {
+        width: 165px;
+        height: 51px;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .format-talk-p {
+        width: 159px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    #add-info {
+        margin-top: 63px;
+    }
+
+    #add-info>h1 {
+        width: 310.8px;
+        height: 43.34px;
+        font-size: 26px;
+    }
+
+    #add-info>ul {
+        width: 299px;
+        height: 199px;
+        font-size: 10px;
+        line-height: 150%;
+        margin: 9.66px 32px 66px 0;
+    }
+
+    footer {
+        height: 251px;
+        display: block;
+        padding-top: 23.3px;
+    }
+
+    .sync {
+        display: none;
+    }
+
+    .footer-logo>img {
+        width: 53.59px;
+        height: 31.69px;
+    }
+
+    .icons>i::before {
+        font-size: 15.38px;
+    }
+
+    #add-info>ul>li::before {
+        font-size: 9.8px;
+        padding-right: 4.74px;
+    }
+
+    .footer-contacts-phone {
+        margin: 0 0 0 27px;
+    }
+
+    .footer-contacts-email {
+        margin-left: 27px;
+    }
+
+    .footer-contacts-email,
+    .footer-contacts-phone {
+        width: 148.18px;
+        height: 20.505px;
+        font-size: 10.84px;
+    }
+
+    .footer-contacts {
+        margin-top: 35px;
+    }
+}
+
+/* TODO ISMAYIL END*/
 
 /*? FIDAN START/
 
