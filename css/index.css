@@ -10,13 +10,309 @@ body {
 }
 
 
-/**HEYDAR START/
 
-/**HEYDAR END/
 
-/* TODO ISMAYIL START/
 
-/* TODO ISMAYIL END/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*? FIDAN START*/
 @media (min-width: 1280px){
@@ -98,7 +394,6 @@ body {
     margin-top: 20px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     margin-left: 14em;
-    
 }
 
 #review h1{
@@ -112,7 +407,6 @@ body {
     padding-bottom:0.6em;
 }
 #EP {
-    /* position: absolute; */
     margin-top: 1em;
     margin-left: 2em;
     width: 23%;
@@ -162,7 +456,6 @@ body {
     line-height: 25.35px;
     margin-top: 2.5em;
     margin-left: 8.9em;
-
 }
 
 #price p{
@@ -180,7 +473,6 @@ body {
     line-height: 81.11px;
     margin-top: -0.45em;
     margin-left: 2.7em;
-
 }
 .offer{
     display:flex;
@@ -191,15 +483,12 @@ body {
     margin-left: -8em;
     margin-top: 0em;
     margin-bottom: -2em;
-
 }
 .offer-text{
     font-weight: 400;
     font-size: 18px;
     line-height: 18.25px;
     display: flex;
-
-
 }
 #course-description{
     width: 20%;
@@ -223,9 +512,6 @@ body {
     font-size: 25px;
     line-height: 25.35px;
 }
-/* .wrapper{
-    width: 100%;
-}  */
 } 
 
 @media screen and (max-width: 1279px) and (min-width: 992px){
@@ -278,7 +564,6 @@ font-family: "Roboto Slab";
     line-height: 22.1px;
     margin-left: 0.8em;
     margin-top: 0.3em;
-
 }
 #program p{
     display: flex;
@@ -306,8 +591,7 @@ font-family: "Roboto Slab";
     margin-left: 14em;
 }
 .review-container{
-    padding-bottom:64.29px;
-    
+    padding-bottom:64.29px;    
 }
 
 #review h1{
@@ -321,7 +605,6 @@ font-family: "Roboto Slab";
     padding-bottom:0.6em;
 }
 #EP {
-    /* position: absolute; */
     margin-top: 0em;
     margin-left: 1em;
     width: 24%;
@@ -371,7 +654,6 @@ font-family: "Roboto Slab";
     line-height: 14.19px;
     margin-top: 2.5em;
     margin-left: 16em;
-
 }
 
 #price p{
@@ -407,8 +689,6 @@ font-family: "Roboto Slab";
     font-size: 10px;
     line-height: 10.14px;
     display: flex;
-
-
 }
 #course-description{
     width: 16%;
@@ -579,7 +859,6 @@ font-family: "Roboto Slab";
     line-height: 12.17px;
     margin-top: 2.5em;
     margin-left: 3em;
-
 }
 
 #price p{
@@ -597,7 +876,6 @@ font-family: "Roboto Slab";
     line-height: 37.51px;
     margin-top: -0.45em;
     margin-left: 0.9em;
-
 }
 .offer{
     display:flex;
@@ -608,15 +886,12 @@ font-family: "Roboto Slab";
     margin-left: -1em;
     margin-top: 0em;
     margin-bottom: -1em;
-
 }
 .offer-text{
     font-weight: 400;
     font-size: 10px;
     line-height: 10.14px;
     display: flex;
-
-
 }
 #course-description{
     width: 36%;
@@ -640,10 +915,5 @@ font-family: "Roboto Slab";
     font-size: 12px;
     line-height: 12.17px;
 }
-.wrapper{
-    width: 100%;
-}
-
-
 }
 /*? FIDAN END*/
