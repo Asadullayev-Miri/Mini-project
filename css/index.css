@@ -642,6 +642,8 @@ footer {
 /**HEYDAR END*/
 
 /*? FIDAN START*/
+
+
 @media (min-width: 1280px) {
 
     #program {
@@ -794,23 +796,27 @@ footer {
         font-size: 55px;
         line-height: 55.76px;
         margin-top: 1.8em;
-        margin-left: 4em;
     }
 
-    #course-price {
+    .course-price {
         font-weight: 400;
         font-size: 25px;
         line-height: 25.35px;
         margin-top: 2.5em;
-        margin-left: 8.9em;
+        display: inline-block;
+    }
+
+    .price-flex{
+        width: 28%;
+    }
+
+    .course-info{
+        width: 90%;
+        font-size: 18px;
     }
 
     #price p {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
         font-weight: 400;
-        font-size: 18px;
         line-height: 18.25px;
         margin-top: 1em;
     }
@@ -820,52 +826,18 @@ footer {
         font-size: 80px;
         line-height: 81.11px;
         margin-top: -0.45em;
-        margin-left: 2.7em;
     }
 
-    .offer {
+    .price-container{
         display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 25.35px;
-        margin-left: -8em;
-        margin-top: 0em;
-        margin-bottom: -2em;
+        justify-content: flex-start;
     }
 
-    .offer-text {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 18.25px;
-        display: flex;
+    .price-wrapper{
+        margin-left: 57px;
+        text-align: left;
     }
 
-    #course-description {
-        width: 20%;
-        margin-left: 12.3em;
-    }
-
-    #course-registration {
-        width: 20%;
-        margin-left: 3.5em;
-    }
-
-    #come-now {
-        margin-left: 5.4em;
-        margin-top: 0.8em;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 25.35px;
-    }
-
-    #level {
-        margin-left: 16.8em;
-        margin-top: 0.8em;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 25.35px;
-    }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 992px) {
@@ -1013,94 +985,61 @@ footer {
         padding-top: 5em;
         padding-bottom: 5em;
     }
-
+    
     #course-begins {
-
+    
         font-family: "Roboto Slab";
         font-weight: 700;
         font-size: 32px;
-        line-height: 32.44px;
-        margin-top: 0.8em;
-        margin-left: 7em;
+        line-height: 55.76px;
     }
-
-    #course-price {
+    
+    .course-price {
         font-weight: 400;
         font-size: 14px;
-        line-height: 14.19px;
-        margin-top: 2.5em;
-        margin-left: 16em;
+        line-height: 25.35px;
+        margin-top: 1em;
+        margin-bottom: 0;
     }
-
-    #price p {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 10.14px;
-        margin-top: 0em;
-    }
-
+    
     #cost {
         font-weight: 400;
         font-size: 46px;
-        line-height: 46.64px;
+        line-height: 81.11px;
         margin-top: -0.45em;
-        margin-left: 4.9em;
-
     }
 
-    .offer {
-        display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 14.19px;
-        margin-left: -1em;
-        margin-top: 0em;
-        margin-bottom: -1em;
-
+    .price-flex{
+        width: 23%;
     }
-
-    .offer-text {
-        font-weight: 400;
+    
+    .course-info{
+        width: 80%;
         font-size: 10px;
-        line-height: 10.14px;
+    }
+    
+    .price-container{
         display: flex;
+        justify-content: flex-start;
+
+    }
+    
+    .price-wrapper{
+        margin-left: 122px;
+        text-align: left;
     }
 
-    #course-description {
-        width: 16%;
-        margin-left: 22.3em;
-    }
+   
 
-    #course-registration {
-        width: 20%;
-        margin-left: 3.5em;
-    }
+   
 
-    #come-now {
-        margin-left: 5.4em;
-        margin-top: 0.8em;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 14.19px;
-    }
-
-    #level {
-        margin-left: 16.8em;
-        margin-top: 1.1em;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 14.19px;
-    }
+    
 }
 
-@media screen and (max-width: 991px) and (min-width: 320px) {
+@media screen and (max-width: 991px) {
     #program {
-        margin-left: 84px;
         width: 100%;
+        margin-left: 34px;
     }
 
     #program h2 {
@@ -1109,7 +1048,6 @@ footer {
         font-size: 26px;
         line-height: 26.36px;
         margin-bottom: 2em;
-        margin-left: -1em;
     }
 
     .first-row,
@@ -1117,16 +1055,17 @@ footer {
     .third-row {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        width: 375px;
+
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        width: 23%;
+        width: 195.9px;
         border-radius: 30px;
         margin-top: 1px;
-        margin-left: 24px;
+        margin-left: 61px;
         margin-bottom: 20px;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
@@ -1140,7 +1079,6 @@ footer {
     #R19,
     #R20 {
         margin-left: 0em;
-        ;
     }
 
     #program h1 {
@@ -1237,93 +1175,61 @@ footer {
         width: 6%;
     }
 
+   
     #price {
         background-color: #9DC9C8;
         padding-top: 5em;
         padding-bottom: 5em;
         width: 400px;
     }
-
+    
     #course-begins {
-
         font-family: "Roboto Slab";
         font-weight: 700;
         font-size: 26px;
-        line-height: 26.36px;
-        margin-top: 0.8em;
-        margin-left: 1em;
-        width: 58%;
+        line-height: 101.38%;
+        width: 70%;
     }
-
-    #course-price {
+    
+    .course-price {
         font-weight: 400;
         font-size: 12px;
-        line-height: 12.17px;
-        margin-top: 2.5em;
-        margin-left: 3em;
+        line-height: 25.35px;
+        margin-top: 1em;
+        margin-bottom: 0;
     }
-
-    #price p {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 10.14px;
-        margin-top: 0em;
-    }
-
+    
     #cost {
         font-weight: 400;
         font-size: 37px;
-        line-height: 37.51px;
+        line-height: 81.11px;
         margin-top: -0.45em;
-        margin-left: 0.9em;
+        margin-bottom: 0;
     }
 
-    .offer {
-        display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 14.19px;
-        margin-left: -1em;
-        margin-top: 0em;
-        margin-bottom: -1em;
+    .price-flex{
+        width: 50%;
+        margin-right: 10px;
     }
-
-    .offer-text {
-        font-weight: 400;
+    
+    .course-info{
+        width: 100%;
         font-size: 10px;
-        line-height: 10.14px;
+    }
+    
+    .price-container{
         display: flex;
+        justify-content: flex-start;
+    }
+    
+    .price-wrapper{
+        margin-left: 57px;
+        text-align: left;
+        width: 308px;
     }
 
-    #course-description {
-        width: 36%;
-        margin-left: 3.3em;
-    }
+    
 
-    #course-registration {
-        width: 38%;
-        margin-left: 4.5em;
-    }
-
-    #come-now {
-        margin-left: 6em;
-        margin-top: 1em;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 12.17px;
-    }
-
-    #level {
-        margin-left: 3.8em;
-        margin-top: 1.1em;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 12.17px;
-    }
 }
 
 /*? FIDAN END*/
